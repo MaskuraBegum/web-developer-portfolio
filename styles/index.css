@@ -106,6 +106,10 @@ main {
     margin: 0 auto;
 }
 
+main section {
+    margin-top: 130px;
+}
+
 /*About section*/
 .about {
     padding: 130px 150px;
@@ -123,7 +127,7 @@ main {
 }
 
 
-.details{
+.details {
     color: #757575;
     font-size: 18px;
     font-weight: 400;
@@ -147,17 +151,73 @@ main {
     font-size: 20px;
     font-weight: 700;
 }
+
 /*what i do section*/
-#what-i-do{
+#what-i-do {
     padding: 30px 150px;
     text-align: center;
 }
-.skill{
+
+.skill {
     text-align: left;
     padding: 30px;
-    width: 200px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
 }
-.continer{
+
+.continer {
     display: flex;
-    justify-content: space-around;
+    gap: 24px;
+}
+
+.skill-description {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/*resume section*/
+.colum-titel {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
+.item-titel {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0;
+    
+
+}
+
+.item-stitel {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+
+.item-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.resume-container hr{
+    margin: 30px;
+}
+.downlod-cv{
+    text-align: center;
+    margin-top: 50px;
 }
