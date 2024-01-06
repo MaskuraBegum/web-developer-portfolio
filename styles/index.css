@@ -100,10 +100,16 @@ nav a {
     height: 700px;
 }
 
+/*main section*/
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /*About section*/
 .about {
     padding: 130px 150px;
-    margin: 150px 230px;
+    margin: 150px 0;
     border-radius: 10px;
     background: #FFF8F3;
     text-align: center;
@@ -119,4 +125,23 @@ nav a {
     color: #757575;
     font-size: 18px;
     font-weight: 400;
+}
+
+.about-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-heading {
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.info-details {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
 }
