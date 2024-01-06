@@ -48,22 +48,75 @@ nav a {
 
 .header {
     background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner {
-    padding: 30px 30px 30px 200px;
+    padding: 30px 30px 0px 200px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
 }
 
 .pic {
     width: 500px;
     height: 600px;
+    padding-left: 160px;
 }
 
-.heading {
+.heding {
     color: var(--Dark-02, #474747);
     font-size: 45px;
     font-weight: 600;
+    margin-bottom: 0;
+}
+
+.titel {
+    color: var(--Dark-01, #181818);
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.pera {
+    color: var(--Dark-03, #757575);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.content {
+    max-width: 500px;
+}
+
+.bottom {
+    position: absolute;
+    padding-top: 10px;
+    width: 130px;
+    height: 700px;
+}
+
+/*About section*/
+.about {
+    padding: 130px 150px;
+    margin: 150px 230px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    text-align: center;
+}
+
+.section-titel {
+    color: var(--Dark-01, #181818);
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.details {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
 }
